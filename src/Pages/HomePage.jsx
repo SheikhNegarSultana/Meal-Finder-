@@ -15,9 +15,7 @@ const HomePage = () => {
     <NavLink to="/random" className="px-6 py-3 bg-pink-500 text-white rounded-lg shadow-md hover:bg-pink-600 text-center">
       Random Meal
     </NavLink>
-    <NavLink to="/search" className="px-6 py-3 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-600 text-center">
-      Search Meals
-    </NavLink>
+    
     <NavLink to="/categories" className="px-6 py-3 bg-green-500 text-white rounded-lg shadow-md hover:bg-green-600 text-center">
       View Categories
     </NavLink>

@@ -13,7 +13,10 @@ const CategoryPage = ({category}) => {
     <img src={strCategoryThumb} alt={strCategory} className="rounded-md mb-2" />
     <p className="text-sm text-gray-600">Category: {strCategory}</p>
     <p className="text-sm text-gray-600 overflow-hidden">{strCategoryDescription}</p>
-    <Link to={`/meals/${idCategory}`} className="text-pink-300 hover:text-pink-400 transition">View Details</Link>
+    <Link to={`/categories/${strCategory}`} className="text-pink-300 hover:text-pink-400 transition">
+  View Details
+</Link>
+
   </div>
 
  
