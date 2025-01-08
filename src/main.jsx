@@ -10,6 +10,7 @@ import CategoriesPage from './Pages/CategoriesPage';
 import RandomMealPage from './Pages/RandomMealPage';
 import CategoryDetails from './Pages/CategoryDetails';
 import MealDetails from './Pages/MealDetails';
+import ErrorPage from './Pages/ErrorPage';
 
 
 
@@ -17,6 +18,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <HomePage />,
+    errorElement:<ErrorPage></ErrorPage>
   },
   {
     path: "/categories",
