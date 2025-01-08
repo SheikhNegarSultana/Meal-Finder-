@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import './App.css'
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
   return (
     <>
 
-      <h1>Vite + React</h1>
+      <NavLink to="/" > Home </NavLink>
      
     </>
   )
